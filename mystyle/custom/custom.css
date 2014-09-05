@@ -25,8 +25,18 @@ a {color: #257fad;}
 /* NOTEBOOK */
 
 /* comment out this line to bring the toolbar back */
-div#maintoolbar, div#header {color: #323e42;
-                             background-color: #293134;}
+div#header {color: #323e42; background-color: #8A879C;}
+div#maintoolbar {color: #323e42;
+                 background-color: #8A879C;
+                 -webkit-transform:translateY(-2.7em);
+                 position:relative;
+                 z-index: 1;}
+div#maintoolbar:hover {color: #323e42;
+                 background-color: #8A879C;
+                 -webkit-transform:translateY(0em);
+                 transition-duration:0.8s;}
+div#menubar {position:relative;z-index:2;}
+span.navbar-text {color:black;}
 
 div#notebook {border-top: none;}
 
