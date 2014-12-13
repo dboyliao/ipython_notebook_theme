@@ -28,15 +28,17 @@ a {color: #257fad;}
 div#header {color: #323e42; background-color: #8A879C;}
 div#maintoolbar {color: #323e42;
                  background-color: #8A879C;
-                 -webkit-transform:translateY(-2.7em);
+                 -webkit-transform:translateY(-3em);
                  position:relative;
-                 z-index: 1;}
+                 z-index: 1;
+                 height: 3.7em;}
 div#maintoolbar:hover {color: #323e42;
                  background-color: #8A879C;
-                 -webkit-transform:translateY(0em);
-                 transition-duration:0.8s;}
-div#menubar {position:relative;z-index:2;}
+                 -webkit-transform:translateY(-0.4em);
+                 transition-duration:0.5s;}
+div#menubar {position:relative;z-index:10;}
 span.navbar-text {color:black;}
+div .btngroup {-webkit-transform:translateY(1em);}
 
 div#notebook {border-top: none;}
 
@@ -46,8 +48,9 @@ div.input_area {
   border-radius: 0px;
   border: 1px solid #516d7b;
 }
-div.output_area pre {font-weight: normal; color: #7ea2b4;}
-div.output_subarea {font-weight: normal; color: #7ea2b4;}
+div.output_area pre {font-weight: normal; color: #3E3E3E;}
+div.output_subarea {font-weight: normal; color: #7ea2b4; background-color: #C0C0C0;margin-top: 4px;}
+
 
 .rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
   border: 1px  #7ea2b4 solid;
